@@ -1,0 +1,80 @@
+body{
+    background: url('../image/bg.jpg');
+    background-size: 100%;
+   font-family: cambria;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(68, 62, 65, 0.8);
+    padding: 100px 100px 100px 100px;
+    box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+    .form-heading{
+    font-size: 40px;
+    color: rgba(238, 104, 178, 0.8);
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 40px;
+    }
+    .form-group{
+    border-bottom: 1px solid rgba(241, 131, 192, 0.8);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    }
+    .view{
+    display:inline-block;
+    color: rgba(241, 131, 192, 0.8);
+    font-size:19px;
+    }
+    .remember{
+        color: rgba(241, 131, 192, 0.8);
+    }
+    .form-group i{
+    color: rgba(241, 131, 192, 0.8);
+    font-size: 22px;
+    padding-right:10px;
+    }
+    .form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: rgba(238, 104, 178, 0.8);
+    flex-grow: 1;
+    font-size:25px;
+    }
+    .form-input::placeholder{
+    color: #f5f5f5;
+    font-size:20px;
+
+    }
+    
+    .form-submit{
+    background: transparent;
+    border: 1px solid rgba(238, 104, 178, 0.8);
+    color: #fff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1px 1px;
+    margin-top: 30px;
+    font-size:22px;
+    cursor:pointer;
+    }
+    .form-submit:hover{
+    background-color: #f5f5f5;
+    color:rgba(0, 0, 0, 0.753);
+    }
+  .signup_link{
+    margin-left:60px;
+    margin-top:10px;
+    color:white;
+  }
